@@ -7,5 +7,3 @@ firstName = "dan"
 lastName = "gaylord"
 fullName = firstName + " " + lastName
 print("Hello, " + fullName)
-
-print("Finally")
