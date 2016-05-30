@@ -1,5 +1,4 @@
 pizzas = ['hawaiian', 'meat lovers', 'the works']
-
 for pizza in pizzas:
     print("I genuinely like " + pizza + " pizza")
 
