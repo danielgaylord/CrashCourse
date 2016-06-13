@@ -8,7 +8,7 @@ print(words)
 
 fib = [0, 1]
 
-for value in range(2,10):
+for value in range(2, 10):
     fib.append(fib[value - 2] + fib[value - 1])
 
 print(fib)
