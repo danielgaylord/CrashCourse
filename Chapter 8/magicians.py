@@ -1,6 +1,4 @@
-def show_magicians(magicians):
-    for mage in magicians:
-        print(mage.title())
+from mages import show_magicians as sm
 
 mages = ['merlin', 'dumbledore', 'gandalf']
-show_magicians(mages)
+sm(mages)
