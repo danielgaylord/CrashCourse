@@ -11,7 +11,3 @@ class IceCreamStand(Restaurant):
         for flavor in self.flavors:
             print("\t" + flavor.title())
 
-ritas = IceCreamStand("Rita's", ['vanilla', 'chocolate', 'strawberry'])
-print(ritas)
-ritas.describe_restaurant()
-ritas.show_flavors()
