@@ -11,6 +11,5 @@ class CityTestCase(unittest.TestCase):
         display = display_city('tokyo', 'japan', 5000)
         self.assertEqual(display, 'Tokyo, Japan - population 5000')
 
-
 if __name__ == "__main__":
     unittest.main()

@@ -3,4 +3,3 @@ def display_city(city, country, population=0):
     if population != 0:
         display += " - population " + str(population)
     return display
-
